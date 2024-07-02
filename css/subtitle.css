@@ -1,0 +1,64 @@
+div#subtitle {
+}
+div#subtitle .wrap {
+  max-width: 100%;
+}
+div#subtitle button{
+  z-index: 1;
+}
+div#subtitle .titleani > button.slick-prev::before{
+  background-image: url(../img/arrowleft.svg);
+}
+div#subtitle .titleani > button.slick-next::before{
+  background-image: url(../img/arrowright.svg);
+}
+div#subtitle button::before{
+  font-size: 10px;
+  opacity: 1;
+  color: #fff;
+  transition: 0.5s;
+
+}
+div#subtitle .titleani > button::before{
+  content: "";
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div#subtitle .slick-active button::before{
+ 
+}
+div#subtitle .slick-prev{
+ left: 300px;
+}
+div#subtitle .slick-next{
+ right: 300px;
+}
+div#subtitle .wrap img {
+
+}
+div#subtitle .wrap .slick-dots{
+ bottom: 18px;
+}
+div#subtitle .wrap .slick-dots button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: initial;
+}
+div#subtitle .wrap .slick-dots button::before{
+  position: static;
+  width: fit-content;
+  height: 8px;
+  line-height: initial;
+}
+div#subtitle .wrap .slick-dots li.slick-active button{
+  border: 1px solid white;
+  border-radius: 50%;
+  opacity: .75;
+}
+div#subtitle .wrap .slick-dots li.slick-active button::before{
+
+}
